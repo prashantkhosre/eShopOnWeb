@@ -1,6 +1,6 @@
 ﻿@page
 @{
-    ViewData["Title"] = "Catalog";
+    ViewData["Title"] = "My Catalog";
     @model IndexModel
 }
 <section class="esh-catalog-hero">
@@ -13,7 +13,7 @@
 <section class="esh-catalog-filters">
     <div class="container">
         <form method="get">
-            <label class="esh-catalog-label" data-title="My brand">
+            <label class="esh-catalog-label" data-title="brand">
                 <select asp-for="@Model.CatalogModel.BrandFilterApplied" asp-items="@Model.CatalogModel.Brands" class="esh-catalog-filter"></select>
             </label>
             <label class="esh-catalog-label" data-title="type">
