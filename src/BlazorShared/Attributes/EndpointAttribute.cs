@@ -1,4 +1,5 @@
-﻿using System;
+// hello
+using System;
 
 namespace BlazorShared.Attributes;
 
