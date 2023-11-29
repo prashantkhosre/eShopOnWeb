@@ -1,3 +1,4 @@
+# Name of the workflow file
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
