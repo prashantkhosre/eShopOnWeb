@@ -6,11 +6,11 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: Ideathonrg
+  RESOURCE-GROUP: webappctjgp11
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: 1d7db5e8-ca11-4f2b-827a-6311bd56de46
-  WEBAPP-NAME: AzureIdeathon
+  SUBSCRIPTION-ID: 607e05a3-6e68-4027-bef6-4184bd3922b9
+  WEBAPP-NAME: webappctjgp11
 
 
 jobs:
